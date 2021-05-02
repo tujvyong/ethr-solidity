@@ -31,7 +31,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -64,7 +65,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -4152,12 +4154,14 @@
             {
               "indexed": true,
               "name": "previousOwner",
-              "type": "address"
+              "type": "address",
+              "internalType": "address"
             },
             {
               "indexed": true,
               "name": "newOwner",
-              "type": "address"
+              "type": "address",
+              "internalType": "address"
             }
           ],
           "name": "OwnershipTransferred",
@@ -4165,12 +4169,13 @@
         }
       },
       "links": {},
-      "address": "0x7525b94Cbadd6b68B921c6A5B6BCB7A792186206",
-      "transactionHash": "0x8514075705e5829b43610dca0d52ff8763a5cf4a71e084d5708f7f1133175d04"
+      "address": "0x67C67Ad8Df198E66382396Ea869133D956c4eDDE",
+      "transactionHash": "0x91e1dce3e33c264e0786ea645f43170ee4a36e817d32d314946256a55b47c679"
     }
   },
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-02T12:34:54.473Z",
+  "updatedAt": "2021-05-02T13:07:20.744Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {
